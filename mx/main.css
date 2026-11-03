@@ -1032,7 +1032,8 @@ body::before{content:"";position:fixed;inset:-20%;pointer-events:none;z-index:0;
 /* hero art: fill the banner edge to edge; hide the blurred fallback layer */
 .NZMJ6g2iVnFsOOp-lDmIP .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u{display:none!important}
 .NZMJ6g2iVnFsOOp-lDmIP .QlR9EFwTdUNm_J5vx54_Z{left:0!important;right:0!important;width:100%!important}
-.NZMJ6g2iVnFsOOp-lDmIP .HNbe3eZf6H7dtJ042x1vM:not(.HSQWw9HUAP6jtA2OZjS-u){width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 30%!important;left:0!important;transform:none!important}
+.NZMJ6g2iVnFsOOp-lDmIP{background:var(--bg-solid)!important}
+.NZMJ6g2iVnFsOOp-lDmIP .HNbe3eZf6H7dtJ042x1vM:not(.HSQWw9HUAP6jtA2OZjS-u){width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;left:0!important;transform:none!important;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 22%,#000 78%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 22%,#000 78%,transparent 100%)}
 ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Play) *,._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:has(.SVGIcon_Download) *{color:inherit!important;fill:currentColor!important}
 /* ===== layout layer: floating composition, motion, spotlight ===== */
 :root{--ease:cubic-bezier(.2,.9,.25,1)}
