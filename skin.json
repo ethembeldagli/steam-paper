@@ -12,6 +12,8 @@
   "owner": "ethembeldagli",
   "repo_name": "steam-paper"
  },
+ "header_image": "https://raw.githubusercontent.com/ethembeldagli/steam-paper/main/screenshots/library.png",
+ "splash_image": "https://raw.githubusercontent.com/ethembeldagli/steam-paper/main/screenshots/gamepage.png",
  "RootColors": "mx/root.css",
  "Steam-WebKit": "mx/webkit.css",
  "Conditions": {
@@ -146,7 +148,5 @@
    "MatchRegexString": "https://steamcommunity\\.com(/.*)?",
    "TargetJs": "mx/webkit.js"
   }
- ],
- "header_image": "https://raw.githubusercontent.com/ethembeldagli/steam-paper/main/screenshots/library.png",
- "splash_image": "https://raw.githubusercontent.com/ethembeldagli/steam-paper/main/screenshots/gamepage.png"
+ ]
 }
