@@ -146,5 +146,7 @@
    "MatchRegexString": "https://steamcommunity\\.com(/.*)?",
    "TargetJs": "mx/webkit.js"
   }
- ]
+ ],
+ "header_image": "https://raw.githubusercontent.com/ethembeldagli/steam-paper/main/screenshots/library.png",
+ "splash_image": "https://raw.githubusercontent.com/ethembeldagli/steam-paper/main/screenshots/gamepage.png"
 }
