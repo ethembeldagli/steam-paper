@@ -59,6 +59,7 @@
 --logo-a:"paper";--logo-b:"®";--logo-font:700 15px 'Instrument Sans',sans-serif;--logo-ls:-.03em;
 --nav-size:13px;--nav-w:600;--nav-sel-bg:#191714;--nav-sel-fg:#f4f1ea;--st-online:#1f6fd1;--st-ingame:#2d8a3e;--price-bg:#191714;--price-fg:#f4f1ea;--avatar-r:50%}
 :root{--st-background:244,241,234!important;--st-color-1:250,248,243!important;--st-color-2:236,232,223!important;--st-color-3:241,238,230!important;--st-color-4:233,229,220!important;--st-color-5:214,209,198!important;--st-color-6:222,217,207!important;--st-accent-1:47,75,255!important;--st-accent-2:255,90,54!important;--st-blue:25,23,20!important;--st-blue-hover:60,56,50!important;--st-green:45,138,62!important;--st-green-hover:60,160,80!important;--st-red:215,38,61!important;--st-red-hover:230,70,90!important;--st-yellow:224,161,0!important;--st-yellow-hover:240,180,30!important;--st-border-radius:12px!important}
+:root{--play-r:10px}
 /* store / community pages */
 html,body,body.v6,.responsive_page_frame,.page_background_holder{background:var(--bg)!important;color:var(--text)!important;font-family:var(--font)!important}
 ::selection{background:var(--acc);color:var(--bg-solid)}

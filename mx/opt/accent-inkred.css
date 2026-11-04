@@ -1,3 +1,3 @@
 @layer opt{
-:root{--acc:#d7263d!important;--acc2:#2f4bff!important;--ring:#d7263d40!important;--spot:#d7263d1f!important;--line-hi:#d7263d66!important;--sel:#d7263d!important;--sel-fg:#ffffff!important;--btn-pri:linear-gradient(110deg,#d7263d,#2f4bff,#d7263d)!important;--btn-pri-fg:#ffffff!important;--price-bg:#d7263d!important;--price-fg:#ffffff!important;--st-accent-1:215,38,61!important;--st-accent-2:47,75,255!important;--st-blue:215,38,61!important;--st-blue-hover:47,75,255!important}
+:root{--acc:#d7263d!important;--acc2:#2f4bff!important;--ring:#d7263d40!important;--spot:#d7263d1f!important;--line-hi:#d7263d66!important;--sel:#d7263d!important;--sel-fg:#ffffff!important;--btn-pri:#d7263d!important;--btn-pri-fg:#ffffff!important;--price-bg:#d7263d!important;--price-fg:#ffffff!important;--st-accent-1:215,38,61!important;--st-accent-2:47,75,255!important;--st-blue:215,38,61!important;--st-blue-hover:47,75,255!important}
 }
