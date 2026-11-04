@@ -1,3 +1,53 @@
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(fonts/7f25d9307a92.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(fonts/d196e8ee7748.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(fonts/bf8910cb402a.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url(fonts/9b8270599413.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: block;
+  src: url(fonts/284bb947c5f3.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400 700;
+  font-stretch: 100%;
+  font-display: block;
+  src: url(fonts/046090ca20b5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 :root{--bg-solid:#f4f1ea;--bg:#f4f1ea;--text:#191714;--mute:#6f6a60;--acc:#2f4bff;--acc2:#ff5a36;
 --font:'Instrument Sans',system-ui,sans-serif;--font-display:'Instrument Sans',system-ui,sans-serif;--font-mono:'IBM Plex Mono',monospace;--r:10px;--grain:0;
 --panel:#faf8f3;--pop:#fffdf8;--input:#ffffff;--hover:#19171409;--line:#1917141f;--thumb:#19171433;--ring:#2f4bff33;
@@ -115,5 +165,6 @@ html body .btn_profile_action>span{background:transparent!important;color:inheri
 html body .profile_header_badge,html body .favorite_badge{background:var(--surface-solid-2)!important;border:1px solid var(--line)!important;border-radius:calc(var(--card-r) - 4px)!important}
 html body .friendBlock,html body .profile_friend_links .friendBlock{border-radius:calc(var(--card-r) - 6px)!important;transition:background .15s}
 html body .friendBlock:hover{background:var(--surface-solid-2)!important}
+:where(*:not(svg,svg *,i,code,pre,kbd,[class*="icon" i],[class*="Icon"])){font-family:var(--font)!important}
 html body.v6 *:not(svg):not(path):not(img):not(video){color:var(--text)!important}
 html body.v6 .btn_green_steamui *,html body.v6 .btnv6_blue_hoverfade *,html body.v6 .discount_pct{color:var(--btn-pri-fg)!important}
