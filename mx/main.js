@@ -1,3 +1,4 @@
+document.querySelectorAll('.q-hero-fade').forEach(e=>e.remove());
 // themed loading screen for the main window: shown until the library/store has rendered (max 8s)
 (()=>{if(window.__qLoad)return;window.__qLoad=1;
 const o=document.createElement('div');o.id='q-load';o.innerHTML='<div class="q-mark"></div><div class="q-bar"></div>';
@@ -14,8 +15,6 @@ const t0=Date.now(),iv=setInterval(()=>{if(document.querySelector('.Rp8QOGJ2Dype
  const w=vr-vl,ar=img.naturalWidth/img.naturalHeight,iw=w,ih=Math.round(w/ar);
  hero.style.setProperty('height',ih+'px','important');hero.style.setProperty('max-height','none','important');hero.style.setProperty('min-height','0','important');
  const h=ih;
- img.classList.add('q-hero');Object.assign(img.style,{position:'absolute',left:(vl-pr.left)+'px',top:'0px',width:iw+'px',height:ih+'px'});
- let f=op.querySelector(':scope>.q-hero-fade');if(!f){f=document.createElement('div');f.className='q-hero-fade';op.appendChild(f)}
- Object.assign(f.style,{left:img.style.left,top:img.style.top,width:iw+'px',height:ih+'px'})};
+ img.classList.add('q-hero');Object.assign(img.style,{position:'absolute',left:(vl-pr.left)+'px',top:'0px',width:iw+'px',height:ih+'px'});};
  const q=()=>{if(!raf)raf=requestAnimationFrame(place)};
  addEventListener('resize',q);new MutationObserver(q).observe(document.documentElement,{childList:true,subtree:true});document.addEventListener('load',q,true)})();
